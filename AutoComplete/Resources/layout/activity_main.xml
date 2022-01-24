@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8D210"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="116.5dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="55.0dp"
+            android:layout_height="40.5dp"
+            android:text="Country"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            style="bold"
+            android:background="#FA26A0"
+        />
+        <AutoCompleteTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AutoComplete_Country"
+            android:layout_marginTop="30dp"
+
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="#3A86FF"
+        android:id="@+id/linearLayout1" 
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Wi-Fi"
+                android:textColor="#FF002B"
+                />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sw1"
+                android:checked="true"
+                android:trackTint="#FF002B"
+                android:thumbTint="#f6f930"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Blutooth"
+                android:textColor="#FF002B"
+                />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sw2"
+                android:checked="true"
+                android:trackTint="#FF002B"
+                android:thumbTint="#f6f930"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Mobile Data"
+                android:textColor="#FF002B"
+                />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sw3"
+                android:checked="false"
+                android:trackTint="#FF002B"
+                android:thumbTint="#f6f930"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Mobile Hotspot"
+                android:textColor="#FF002B"
+                />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sw4"
+                android:checked="false"
+                android:trackTint="#FF002B"
+                android:thumbTint="#f6f930"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
